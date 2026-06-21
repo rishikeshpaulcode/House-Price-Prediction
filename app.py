@@ -52,11 +52,11 @@ st.markdown(
 )
 
 # get unique categories of each feature
-with open("./src/categories.json", "r") as file:
+with open("categories.json", "r") as file:
     categories = json.load(file)
 
 # load the model
-with open("./src/House_Price_Predictor.pkl", "rb") as file:
+with open("House_Price_Predictor.pkl", "rb") as file:
     model = pickle.load(file)
 
 # function to transform given input to numeric
