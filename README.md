@@ -10,6 +10,10 @@ A Streamlit-based Indian house price prediction app built with a trained Random 
 - Handles multi-option overlooking choices like garden, park, or pool
 - Converts user inputs into model-ready numeric features automatically
 
+## Links
+- Kaggle notebook: https://www.kaggle.com/code/rishikeshpaul/house-price-prediction
+- Streamlit app: https://house-price-prediction-8iotgqez6uangh5cvngnjv.streamlit.app
+
 ## Files Included
 
 - `app.py` — main Streamlit app that loads the model, displays the UI, and returns predictions
